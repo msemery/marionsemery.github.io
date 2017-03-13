@@ -1,6 +1,6 @@
 /* color checker */
 
-	/* 
+	/*
 	red			#960000
 	orange		#FF4601
 	cream white	#FFFFEB
@@ -143,10 +143,24 @@ h4 {
 	margin:0;
 	padding:25px;
 	position:relative;
+	transform: translateX(-100%);
+	animation-name: middle_left_anim;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
 }
 .bar_l {
 	border-left: 1px solid white;
 	padding-left:15px;
+}
+@keyframes middle_left_anim {
+	from {
+		transform: translateX(-100%);
+		opacity: 0
+	}
+    to {
+		transform: none;
+		opacity: 1;
+	}
 }
 
 								.middle_right {
@@ -157,13 +171,27 @@ h4 {
 									padding:25px;
 									position:relative;
 									text-align:right;
+									transform: translateX(100%);
+									animation-name: middle_right_anim;
+									animation-duration: 1s;
+									animation-delay: 0.25s;
+									animation-fill-mode: forwards;
 								}
 								.bar_r {
 									border-right:1px solid white;
 									padding-right:15px;
 								}
 
-
+								@keyframes middle_right_anim {
+									from {
+										transform: translateX(100%);
+										opacity: 0
+									}
+								    to {
+										transform: none;
+										opacity: 1;
+									}
+								}
 /*  BOTTOM  */
 
 
@@ -174,6 +202,20 @@ h4 {
 	margin:0;
 	padding:25px;
 	position:relative;
+	transform: translateX(-100%);
+	animation-name: middle_left_anim;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+}
+@keyframes bottom_left_anim {
+	from {
+		transform: translateX(-100%);
+		opacity: 0}
+    to {
+		transform: none;
+		opacity: 1;
+	}
 }
 								.bottom_right {
 
@@ -182,6 +224,21 @@ h4 {
 									margin:0;
 									padding:25px;
 									position:relative;
+									transform: translateX(100%);
+									animation-name: bottom_right_anim;
+									animation-duration: 1s;
+									animation-delay: 0.75s;
+									animation-fill-mode: forwards;
+								}
+								@keyframes bottom_right_anim {
+									from {
+										transform: translateX(100%);
+										opacity: 0
+									}
+								    to {
+										transform: none;
+										opacity: 1;
+									}
 								}
 
 
@@ -327,7 +384,7 @@ h4 {
 
 	.bar_r {
 	border-right:1px solid white;
-	padding-right:10px;	
+	padding-right:10px;
 	}
 
 
