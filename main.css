@@ -138,8 +138,8 @@ h4 {
 
 .middle_left {
 	background-color: #FF4601;
-	border-top-right-radius: 100%;
-	height:400px;
+	border-top-right-radius: 55%;
+	height:600px;
 	margin:0;
 	padding:25px;
 	position:relative;
@@ -166,7 +166,7 @@ h4 {
 								.middle_right {
 									background-color: #FF4601;
 									border-bottom-left-radius: 100%;
-									height:400px;
+									height:600px;
 									margin:0;
 									padding:25px;
 									position:relative;
@@ -177,6 +177,13 @@ h4 {
 									animation-delay: 0.25s;
 									animation-fill-mode: forwards;
 								}
+
+								@media only screen and (max-width: 480px) {
+									.middle_left {
+										height: 40%;
+									}
+								}
+
 								.bar_r {
 									border-right:1px solid white;
 									padding-right:15px;
@@ -280,6 +287,18 @@ h4 {
 	bottom: 0;
 	margin-top:110px;
 	margin-left: -25px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	#avatar {
+		margin-top: 90px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	#avatar {
+		margin-top: 60px;
 	}
 }
 
