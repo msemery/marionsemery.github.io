@@ -1,3 +1,4 @@
+
 /* color checker */
 
 	/*
@@ -6,7 +7,6 @@
 	cream white	#FFFFEB
 	soft black	#181919
 	grey		#C8CBCC
-
 	*/
 
 
@@ -35,9 +35,9 @@ body {
 /* bar top */
 
 .top_fixed {
-	min-width:100%;
+	width:100%;
 	background-color:#FF4601;
-	position: relative;
+	position:absolute;
 	position:fixed;
 	z-index: 9999;
 }
@@ -57,14 +57,12 @@ body {
 /* images and ico */
 
 #avatar {
-	width:100%;
+	width:110%;
 	height: auto;
 	bottom: 0;
 	margin-top: -6px;
-	margin: 0;
-	padding: 0;
+	margin-left: -30px;
 }
-
 .ico {
 	width: 15px;
 }
@@ -80,10 +78,6 @@ h1 {
 	color:white;
 	font-size: 52px;
 	margin-top: 66px;
-}
-
-.name {
-	min-width: 100%;
 }
 
 h2 {
@@ -124,21 +118,13 @@ h4 {
 
 
 .top_left {
-	width: 100%;
 	background-color: white;
 	height:400px;
 	margin:0;
-	padding: 0;
-}
-
-@media only screen and (max-width: 357) {
-	.top_left {
-		width: 100%;
-		padding: 0;
-	}
+	padding:25px;
+	position:relative;
 }
 								.top_right {
-									min-width: 100%;
 									background-color: #FF4601;
 									height:400px;
 									margin:0;
@@ -151,7 +137,6 @@ h4 {
 
 
 .middle_left {
-	min-width: 100%;
 	background-color: #FF4601;
 	border-top-right-radius: 55%;
 	height:600px;
@@ -179,7 +164,6 @@ h4 {
 }
 
 								.middle_right {
-									min-width: 100%;
 									background-color: #FF4601;
 									border-bottom-left-radius: 100%;
 									height:600px;
@@ -219,7 +203,6 @@ h4 {
 
 
 .bottom_left {
-	min-width: 100%;
 	background-color: #FF4601;
 	border-bottom-left-radius: 40%;
 	height:400px;
@@ -242,7 +225,7 @@ h4 {
 	}
 }
 								.bottom_right {
-									min-width: 100%;
+
 									background-color: #C8CBCC;
 									height:400px;
 									margin:0;
@@ -265,51 +248,30 @@ h4 {
 									}
 								}
 
-@media only screen and (max-width: 1920px) {
-	#avatar {
-	width: 60%;
-	height: auto;
-	bottom: 0;
-	margin-top: 20px;
-	float: right;
-	}
-}
-
-@media only screen and (max-width: 1920px) {
-	.top_left {
-		background-color: #E1E7EE;
-	}
-}
 
 @media only screen and (max-width: 1281px) {
 	#avatar {
-	width:100%;
+	width:200%;
 	height: auto;
 	bottom: 0;
-	margin-top:40px;
-	}
-}
-
-@media only screen and (max-width: 1360px) {
-	#avatar {
-		width: 60%;
-		margin-left: 0;
-		float: right;
+	margin-top:-9px;
+	margin-left: -250px;
 	}
 }
 
 @media only screen and (max-width: 981px) {
 	#avatar {
-	width:100%;
+	width:110%;
 	height: auto;
 	bottom: 0;
-	margin-top:50px;
+	margin-top:40px;
+	margin-left: -20px;
 	}
 }
 
 @media only screen and (max-width: 800px) {
 	#avatar {
-	width:100%;
+	width:110%;
 	height: auto;
 	bottom: 0;
 	margin-top:-340px;
@@ -320,10 +282,10 @@ h4 {
 
 @media only screen and (max-width: 768px) {
 	#avatar {
-	width:100%;
+	width:110%;
 	height: auto;
 	bottom: 0;
-	margin-top:170px;
+	margin-top:110px;
 	margin-left: -25px;
 	}
 }
@@ -342,20 +304,12 @@ h4 {
 
 @media only screen and (max-width: 510px) {
 			#avatar {
-			width:100%;
+			width:120%;
 			height: auto;
 			bottom: 0;
-			margin-top:300px;
+			margin-top:130px;
+			margin-left: -25px;
 			}
-
-@media only screen and (max-width: 357px) {
-	#avatar {
-		width: 100%;
-		padding: 0;
-		margin: 0;
-
-	}
-}
 
 		.top_left {
 		background-color: white;
@@ -392,27 +346,14 @@ h4 {
 
 }
 
-@media only screen and (max-width: 321px) {
-	#avatar {
-	width: 100%;
-	float: right;
-	}
-}
-
-@media only screen and (max-width: 510px) {
-			.top_left {
-			width: 100%;
-			padding: 0px;
-			}
-}
 
 @media only screen and (max-width: 361px) {
 			#avatar {
-			width:110%;
+			width:120%;
 			height: auto;
 			bottom: 0;
-			margin-top:100px;
-			padding: 0;
+			margin-top:97px;
+			margin-left: -25px;
 			}
 			.white_text {
 			font-size: 15px;
@@ -424,7 +365,7 @@ h4 {
 		background-color: white;
 		height:250px;
 		margin-top:0px;
-		padding:0px;
+		padding:10px;
 		position:relative;
 		}
 
