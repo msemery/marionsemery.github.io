@@ -129,6 +129,7 @@ h4 {
 	position:relative;
 }
 								.top_right {
+									min-width: 100%;
 									background-color: #FF4601;
 									height:400px;
 									margin:0;
@@ -141,6 +142,7 @@ h4 {
 
 
 .middle_left {
+	min-width: 100%;
 	background-color: #FF4601;
 	border-top-right-radius: 55%;
 	height:600px;
@@ -168,6 +170,7 @@ h4 {
 }
 
 								.middle_right {
+									min-width: 100%;
 									background-color: #FF4601;
 									border-bottom-left-radius: 100%;
 									height:600px;
@@ -207,6 +210,7 @@ h4 {
 
 
 .bottom_left {
+	min-width: 100%;
 	background-color: #FF4601;
 	border-bottom-left-radius: 40%;
 	height:400px;
@@ -229,7 +233,7 @@ h4 {
 	}
 }
 								.bottom_right {
-
+									min-width: 100%;
 									background-color: #C8CBCC;
 									height:400px;
 									margin:0;
